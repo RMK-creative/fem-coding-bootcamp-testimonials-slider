@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
